@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <a href="#">
+                <img src="assets/image/Logo.png" alt="">
+            </a>
+            <nav>
+                <i class="fa-solid fa-bars" onclick="tooglemenu()"></i>
+                <ul id="to-menu">
+                    <i class="fa-solid fa-xmark" onclick="tooglemenu()"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+
+                    <li>
+                        <a href="#">Package <i class="fa-solid fa-chevron-down"></i> </a>
+                        <ul class="pa-list">
+                            <li><a href="#">Manali</a></li>
+                            <li>
+                                <a href="#">Goa</a>
+                                <ul class="pi-list">
+                                    <li><a href="#">2days</a></li>
+                                    <li><a href="#">3days</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">shimla</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#"> Destination <i class="fa-solid fa-chevron-down"></i> </a></li>
+                    <li><a href="#"> Blog <i class="fa-solid fa-chevron-down"></i> </a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </nav>
+            <a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </header>
+
+    <script>
+        function tooglemenu() {
+            document.getElementById("menu").classList.toggle("showhide")
+        }
+    </script>
+
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="journy-data">
+                    <h1>Make in <br>your journey.</h1>
+
+                    <p>Explore the world with what you love beautiful natural beauty.</p>
+
+                    <form action="" class="form-data">
+                        <select name="location">
+                            <option value="0">location</option>
+                            <option value="goa">goa</option>
+                            <option value="manali">manali</option>
+                        </select>
+                        <select name="date">
+                            <option value="0">date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <select name="people">
+                            <option value="0">people</option>
+                            <option value="1">1</option>
+                            <option value="1">1</option>
+                        </select>
+                        <input type="submit" class="common-btn" value="Explore Now">
+                    </form>
+
+                    <p><span>Popular Place :</span> Bali, Istanbul, Rome, Paris.</p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="main">
+            <div class="container">
+                <h2 class="main-title">About US</h2>
+                <p class="sub-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.
+                </p>
+
+                <div class="row about-data">
+                    <div class="col-md-6  col-lg-4">
+                        <div class="work">
+                            <img src="assets/image/a1.png" alt="">
+                            <h2>Great team work</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor nunc non neque
+                                euismod porttitor. Nullam lacus est, tincidunt eget sapien eget, maximus convallis
+                                massa.
+                                Curabitur quis tellus a tortor egestas viverra. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="vision">
+                            <img src="assets/image/a2.png" alt="">
+                            <h2>Our vision</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.. </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="mission">
+                            <img src="assets/image/a3.png" alt="">
+                            <h2>Our mision</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.. </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row  main-row">
+                    <div class="col-12 col-lg-6">
+                        <div class="founder-data">
+                            <img src="assets/image/un1.png" alt="">
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div class="siti-sarh">
+                            <img src="assets/image/Vector (3).png" alt="">
+
+                            <p class="pr-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor
+                                sapien
+                                et urna tincidunt
+                                fringilla. Vivamus at augue interdum, blandit arcu quis, laoreet ipsum. In eu ipsum
+                                urna.
+                                Suspendisse suscipit est et neque.</p>
+
+                            <p class="pr-2">Mauris tempor tellus ante, ut fermentum erat gravida vel. Class aptent
+                                taciti
+                                sociosqu ad litora
+                                torquent per conubia nostra, per inceptos himenaeos. Aenean nec justo dui. Ut et
+                                consequat
+                                dui,
+                                a malesuada ipsum. Pellentesque nec turpis viverra, blandit mi a, accumsan justo.</p>
+
+                            <h2>Siti Sarah</h2>
+                            <p class="pr-3">Founder Travosca</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages">
+            <div class="container">
+                <div class="main-title">Packages</div>
+                <div class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</div>
+                <div class="row popular">
+                    <div class="col-xl-6">
+                        <h3>Popular Packages</h3>
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna</p>
+                    </div>
+                    <div class="col-xl-2">
+                        <a href="#" class="common-btn  popular-btn">discover more</a>
+                    </div>
+                </div>
+                <div class="row pop-data">
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pop-detail">
+                            <img src="assets/image/paris img.jpg" alt="">
+                            <div class="desc-data">
+                                <div class="pop-details">
+                                    <h4>paris</h4>
+                                    <p>$299.00/2days</p>
+                                </div>
+
+                                <p class="lorem-data">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                                    eiusmod tempor incididunt
+                                    ut
+                                    labore et dolore
+                                    incididunt ut labore et dolore</p>
+                                <div class="pop-desc">
+                                    <div class="pop">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pop-btn">
+                                        <a href="#" class="common-btn">booking now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pop-detail">
+                            <img src="assets/image/founderimg.jpg" alt="">
+                            <div class="desc-data">
+                                <div class="pop-details">
+                                    <h4>swiss</h4>
+                                    <p>$299.00/2days</p>
+                                </div>
+
+                                <p class="lorem-data">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                                    eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore
+                                    incididunt ut labore et dolore</p>
+
+                                <div class="pop-desc">
+                                    <div class="pop">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="pop-btn">
+                                        <a href="#" class="common-btn">booking now</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pop-detail">
+                            <img src="assets/image/thailend.jpg" alt="">
+                            <div class="desc-data">
+                                <div class="pop-details">
+                                    <h4>Thailand</h4>
+                                    <p>$299.00/2days</p>
+                                </div>
+
+                                <p class="lorem-data">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                                    eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore
+                                    incididunt ut labore et dolore</p>
+
+                                <div class="pop-desc">
+                                    <div class="pop">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="pop-btn">
+                                        <a href="#" class="common-btn">booking now</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pop-detail">
+                            <img src="assets/image/taiwan.jpg" alt="">
+                            <div class="desc-data">
+                                <div class="pop-details">
+                                    <h4>taiwan</h4>
+                                    <p>$299.00/2days</p>
+                                </div>
+
+                                <p class="lorem-data">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                                    eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore
+                                    incididunt ut labore et dolore</p>
+
+                                <div class="pop-desc">
+                                    <div class="pop">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="pop-btn">
+                                        <a href="#" class="common-btn">booking now</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pop-detail">
+                            <img src="assets/image/indonesi.jpg" alt="">
+                            <div class="desc-data">
+                                <div class="pop-details">
+                                    <h4>indonesi</h4>
+                                    <p>$299.00/2days</p>
+                                </div>
+
+                                <p class="lorem-data">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                                    eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore
+                                    incididunt ut labore et dolore</p>
+
+                                <div class="pop-desc">
+                                    <div class="pop">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="pop-btn">
+                                        <a href="#" class="common-btn">booking now</a>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-4  col-md-6">
+                        <div class="pop-detail">
+                            <img src="assets/image/singapur.jpg" alt="">
+                            <div class="desc-data">
+                                <div class="pop-details">
+                                    <h4>singapur</h4>
+                                    <p>$299.00/2days</p>
+                                </div>
+
+                                <p class="lorem-data">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do
+                                    eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore
+                                    incididunt ut labore et dolore</p>
+
+                                <div class="pop-desc">
+                                    <div class="pop">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="pop-btn">
+                                        <a href="#" class="common-btn">booking now</a>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+        </section>
+
+        <section id="Destination">
+            <div class="container">
+                <div class="main-title">Destination</div>
+                <div class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</div>
+
+                <div class="swiper Document-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="col-3 bali-data">
+                                <img src="assets/image/a7img.jpg" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a8img.jpg" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a9img.webp" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a333img.jpg" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a55img.jpg" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a666img.jpeg" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a11img.jpg" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+                                <img src="assets/image/a22img.webp" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class=" bali-data">
+
+                                <img src="assets/image/a333img.webp" alt="">
+                                <div class="bali">
+                                    <div class="bali-detail">
+                                        <p>“</p>
+                                    </div>
+                                    <h3>Bali, Indonesia.</h3>
+                                    <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+
+
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <script>
+                    var swiper1 = new Swiper(".Document-slide", {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: false,
+                        },
+
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+
+
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                        },
+                    });
+
+                </script>
+
+
+        </section>
+
+        <section id="blog">
+            <div class="container">
+                <div class="main-title">Blog</div>
+                <div class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</div>
+
+
+                <div class="row travel-tips">
+                    <div class="col-md-12 col-xl-4 tips">
+                        <div class="row tips-detailss">
+                            <div class="col-md-6 col-xl-12 tips-data">
+                                <div class="tip-dat">
+                                    <p>Perfect | Tips</p>
+                                    <h3>9 Popular Travel Destintion on Sale in 2022
+                                        -</h3>
+                                    <p class="t-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod
+                                        tempor incididunt
+                                        ut labore et dolore magna</p>
+
+                                    <a href="#" class="common-btn">read more</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-12 tips-datas">
+
+                                <p>Tips | Travel</p>
+                                <h3>How Are We Going to Travel in 2022
+                                    -</h3>
+                                <p class="t-1">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                </p>
+                                <a href="#" class="common-btn">read more</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12 col-xl-8 tips-img">
+
+                        <img src="assets/image/travelworld.avif" alt="">
+                        <div class="tips-detail">
+                            <p>Stories | Tips</p>
+                            <h3>Travel Stories For Now and the Future</h3>
+                            <p class="t-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna</p>
+                            <a href="#" class="common-btn">read more</a>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <section id="contect">
+            <div class="container">
+
+                <div class="main-title">Contact</div>
+                <div class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="contect-form">
+                            <form action="contect-form">
+
+                                <input type="text" class="fo-detail" name="name" placeholder="Your name">
+                                <input type="email" class="fo-detail" name="email" placeholder="Your email">
+                                <input type="text" class="fo-detail" name="sub" placeholder="subject">
+
+                                <textarea name="message" rows="3" cols="10" placeholder="Message"></textarea>
+
+                                <input type="submit" class="form-btn" value="Send Message">
+
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-7 get-detail">
+                        <h3>Get In Touch</h3>
+                        <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna</p>
+
+                        <div class="row contects">
+                            <div class="col-md-6 contect-ache">
+                                <h2>Lhoksemawe, Aceh</h2>
+                                <h3> <i class="fa-solid fa-phone"></i> +62 6943 6956</h3>
+                                <p class="ac-1"> <i class="fa-solid fa-envelope"></i> contact@domain.com</p>
+                                <p class="ac-1"> <i class="fa-solid fa-location-dot"></i> Jl. Darussalam Hagu selatan
+                                </p>
+                            </div>
+
+                            <div class="col-md-6  contect-ache">
+                                <h2>Lhoksemawe, Aceh</h2>
+                                <h3> <i class="fa-solid fa-phone"></i> +62 6943 6956</h3>
+                                <p class="ac-1"> <i class="fa-solid fa-envelope"></i> contact@domain.com</p>
+                                <p class="ac-1"> <i class="fa-solid fa-location-dot"></i> Jl. Darussalam Hagu selatan
+                                </p>
+
+                            </div>
+
+
+
+                            <div class="col-md-6 contect-aches">
+                                <h2>Lhoksemawe, Aceh</h2>
+                                <h3> <i class="fa-solid fa-phone"></i> +62 6943 6956</h3>
+                                <p class="ac-2"> <i class="fa-solid fa-envelope"></i> contact@domain.com</p>
+                                <p class="ac-2"> <i class="fa-solid fa-location-dot"></i> Jl. Darussalam Hagu selatan
+                                </p>
+                            </div>
+
+                            <div class="col-md-6  contect-aches">
+                                <h2>Lhoksemawe, Aceh</h2>
+                                <h3> <i class="fa-solid fa-phone"></i> +62 6943 6956</h3>
+                                <p class="ac-2"> <i class="fa-solid fa-envelope"></i> contact@domain.com</p>
+                                <p class="ac-2"> <i class="fa-solid fa-location-dot"></i> Jl. Darussalam Hagu selatan
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section id="price">
+            <div class="container">
+                <h2 class="price-1">Subcribe to get special price</h3>
+                    <div class="price-title">
+                        <p>Dont wanna miss something? subscribe right now and get special promotion and monthly
+                            newsletter
+
+                        <div class="btns">
+                            <input type="text" class="email" name="email" placeholder="type your email here">
+                            <a href="#" class="title-btn">subscribe</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    
+    <footer id="travel-end">
+        <div class="container">
+            <div class="row travel-datas">
+                <div class="col-12 col-md-6 col-xl-4 tr-0">
+                    <img src="assets/image/tr-logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra condimentum.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 tr-1">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> 732 Despard St, Atlanta</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i> +97 888 8888</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i> info@traveller.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-1 tr-1">
+                    <h2>Quick Link</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-2 tr-1">
+                    <h2>Follow Us</h2>
+                    <ul class="icans">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i> </a> </li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="last">
+            <p>Copyright © 2021 UNQ Design</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
