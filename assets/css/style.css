@@ -374,7 +374,7 @@ header .fa-xmark {
 /******************packages************************/
 
 
-#packages {}
+
 
 .pop-data {
     row-gap: 1.5rem;
@@ -386,7 +386,9 @@ header .fa-xmark {
     justify-content: space-between;
     align-items: flex-end;
     row-gap: 3rem;
+    display: flex;
 }
+
 
 
 .popular h3 {

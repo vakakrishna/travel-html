@@ -129,18 +129,29 @@
 
     .form-data {
         max-width: 80%;
-        flex-direction: column;
+        flex-direction: row;
         border-radius: 0.5rem;
     }
 
     .journy-data {
-        top: 8rem;
+        top: 2rem;
     }
     header nav>ul>li {
         margin: 0 0.3rem;
     
     }
     
+    .journy-data h1 {
+        font-size: 4rem !important;
+        line-height: 4rem;
+        padding-top: 2rem;
+    }
+
+    .journy-data p {
+        max-width: 40rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
     
 }
 
@@ -150,7 +161,7 @@
         position: fixed;
         top: 0;
         right: -60%;
-        height: 100vh;
+      
         width: 90%;
         background-color: #241c15;
         transition: all 1s;
@@ -175,7 +186,32 @@
     header .fa-xmark {
         display: inline-block;
     }
+    .journy-data h1 {
+        font-size: 2rem;
+        
+    }
 
+    .journy-data p { 
+        max-width: 25rem;
+        font-size: 1rem;
+        margin-top: 2.6rem;
+    }
+    .form-data {
+        max-width: 100%;
+        flex-direction: row;
+        border-radius: 0.5rem;
+    }
+
+    .form-data select {
+        font-size: 0.6rem;
+        padding: 0rem !important;
+    }
+
+    .common-btn {
+        font-size: 0.7rem;
+        padding: 0.4rem 1rem;
+    
+    }
 }
 
 /* (576-767) sm */
@@ -307,9 +343,19 @@
     
     }
 
-
+    .journy-data h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .form-data select {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+    .common-btn {
+        font-size: 1.8rem;
+        padding: 2rem 2rem;
     
-
+    }
 }
 
 /* (768-991) md */
@@ -414,6 +460,10 @@
     
     }
 
+    .journy-data h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
 
 }
 
@@ -618,7 +668,11 @@
         margin: 0 2.3rem;
     
     }
-    
+    .journy-data h1 {
+        font-size: 9rem;
+        line-height: 9rem !important;
+    }
+
 }
 
 /* (1400-any) xxl  */
@@ -691,6 +745,19 @@
     .tr-1 ul li {
         font-size: 18px;
     }
-
+    .journy-data h1 {
+        font-size: 9rem;
+        line-height: 10rem !important;
+    }
+    .journy-data p { 
+        max-width: 50rem;
+        font-size: 1.8rem;
+        margin-top: 3.6rem;
+    }
+    .form-data {
+        max-width: 100rem;
+        flex-direction: column;
+        border-radius: 0.2rem;
+    }
 
 } 
