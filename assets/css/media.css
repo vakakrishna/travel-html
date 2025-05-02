@@ -356,6 +356,10 @@
         padding: 2rem 2rem;
     
     }
+
+    .journy-data p {
+        margin-top: 1rem;
+    }
 }
 
 /* (768-991) md */
@@ -451,8 +455,8 @@
 
     .form-data {
         max-width: 72rem;
-        flex-direction: row;
-        border-radius: 7.2rem;
+        flex-direction: column;
+        border-radius: 1.2rem;
     }
 
     header nav>ul>li {
@@ -672,7 +676,9 @@
         font-size: 9rem;
         line-height: 9rem !important;
     }
-
+    .journy-data p {
+        margin-top: 1.6rem;
+    }
 }
 
 /* (1400-any) xxl  */
@@ -759,5 +765,8 @@
         flex-direction: column;
         border-radius: 0.2rem;
     }
-
+    .journy-data p {
+        margin-top: 3.6rem;
+    }
+    
 } 
