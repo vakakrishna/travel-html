@@ -52,6 +52,10 @@
         width: 100.00%;
     }
 
+    #hero {
+        height: 50vh;
+    }
+
     .about-data .work {
         padding-right: 0;
 
@@ -136,11 +140,12 @@
     .journy-data {
         top: 2rem;
     }
+
     header nav>ul>li {
         margin: 0 0.3rem;
-    
+
     }
-    
+
     .journy-data h1 {
         font-size: 4rem !important;
         line-height: 4rem;
@@ -152,7 +157,7 @@
         font-size: 1.5rem;
         margin-top: 2rem;
     }
-    
+
 }
 
 @media screen and (max-width: 991px) {
@@ -160,14 +165,15 @@
         display: block;
         position: fixed;
         top: 0;
-        right: -40%;
-        width: 20%;
-        background-color: #241c15;
+        right: 0;
+        left: 100%;
+        width: 100%;
+        background-color: rgba(36, 28, 21, 0.8);
         transition: all 1s;
     }
 
     .showHide {
-        right: 0 !important;
+        left: 0 !important;
     }
 
     .pa-list,
@@ -178,7 +184,7 @@
     }
 
     header nav>ul li:hover .pi-list {
-        display:block;
+        display: block;
     }
 
     .showhide {
@@ -189,16 +195,18 @@
     header .fa-xmark {
         display: inline-block;
     }
+
     .journy-data h1 {
         font-size: 2rem;
-        
+
     }
 
-    .journy-data p { 
+    .journy-data p {
         max-width: 25rem;
         font-size: 1rem;
         margin-top: 2.6rem;
     }
+
     .form-data {
         max-width: 100%;
         flex-direction: row;
@@ -213,7 +221,7 @@
     .common-btn {
         font-size: 0.7rem;
         padding: 0.4rem 1rem;
-    
+
     }
 }
 
@@ -221,6 +229,10 @@
 @media screen and (min-width: 576px) {
     .container {
         max-width: 54rem;
+    }
+
+    #hero {
+        height: 100vh;
     }
 
     .col-sm-1 {
@@ -341,23 +353,26 @@
         max-width: 42rem;
         border-radius: 1rem;
     }
+
     header nav>ul>li {
         margin: 0 0.9rem;
-    
+
     }
 
     .journy-data h1 {
         font-size: 3rem;
         line-height: 3rem;
     }
+
     .form-data select {
         font-size: 1.8rem;
         padding: 1rem;
     }
+
     .common-btn {
         font-size: 1.8rem;
         padding: 2rem 2rem;
-    
+
     }
 
     .journy-data p {
@@ -464,7 +479,7 @@
 
     header nav>ul>li {
         margin: 0 0.9rem;
-    
+
     }
 
     .journy-data h1 {
@@ -528,6 +543,11 @@
         width: 100.00%;
     }
 
+    header .fa-bars,
+    header .fa-xmark {
+        display: none;
+    }
+
     .about-data .work {
         padding-right: 2.8rem;
 
@@ -561,9 +581,10 @@
     .tr-0 img {
         width: 22rem;
     }
+
     header nav>ul>li {
         margin: 0 0.9rem;
-    
+
     }
 
 
@@ -673,12 +694,14 @@
     header nav>ul>li {
         position: relative;
         margin: 0 2.3rem;
-    
+
     }
+
     .journy-data h1 {
         font-size: 9rem;
         line-height: 9rem !important;
     }
+
     .journy-data p {
         margin-top: 1.6rem;
     }
@@ -754,22 +777,26 @@
     .tr-1 ul li {
         font-size: 18px;
     }
+
     .journy-data h1 {
         font-size: 9rem;
         line-height: 10rem !important;
     }
-    .journy-data p { 
+
+    .journy-data p {
         max-width: 50rem;
         font-size: 1.8rem;
         margin-top: 3.6rem;
     }
+
     .form-data {
         max-width: 100rem;
         flex-direction: column;
         border-radius: 0.2rem;
     }
+
     .journy-data p {
         margin-top: 3.6rem;
     }
-    
-} 
+
+}

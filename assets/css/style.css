@@ -100,6 +100,12 @@ a {
     max-width: 136.4rem;
     margin: 0 auto;
     padding: 0 1rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.container .header-buttons{
+    display: flex;
+    flex-direction: row;
 }
 
 #main {
@@ -232,7 +238,7 @@ header .fa-xmark {
 /****************hero*******************/
 #hero {
     background-image: url(../image/a9img.webp);
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-position: center;
     background-size: cover;
