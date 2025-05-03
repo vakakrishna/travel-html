@@ -224,10 +224,8 @@ header nav>ul> .pa-list {
 
 header .fa-bars,
 header .fa-xmark {
-    display: none;
     font-size: 2rem;
     color: white;
-    padding-left: 20rem;
 }
 /********************************************/
 
