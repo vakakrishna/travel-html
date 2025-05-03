@@ -160,11 +160,15 @@
         display: block;
         position: fixed;
         top: 0;
-        right: -60%;
+        right: -40%;
       
-        width: 90%;
+        width: 20%;
         background-color: #241c15;
         transition: all 1s;
+    }
+
+    .showHide {
+        right: 0 !important;
     }
 
     .pa-list,
