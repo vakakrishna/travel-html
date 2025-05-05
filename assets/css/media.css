@@ -166,14 +166,14 @@
         position: fixed;
         top: 0;
         right: 0;
-        left: 100%;
-        width: 100%;
+        width: 70%;
+        height: 100vh;
         background-color: rgba(36, 28, 21, 0.8);
         transition: all 1s;
     }
 
     .showHide {
-        left: 0 !important;
+        right: -70% !important;
     }
 
     .pa-list,
