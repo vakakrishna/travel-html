@@ -103,7 +103,8 @@ a {
     /* display: flex;
     justify-content: space-between; */
 }
-.container .header-buttons{
+
+.container .header-buttons {
     display: flex;
     flex-direction: row;
 }
@@ -212,7 +213,7 @@ header ul>li:hover .pa-list {
     display: inline-block;
 }
 
-header nav>ul> .pa-list {
+header nav>ul>.pa-list {
     position: relative;
 }
 
@@ -234,6 +235,7 @@ header .fa-xmark {
     font-size: 2rem;
     color: white;
 }
+
 /********************************************/
 
 /****************hero*******************/
