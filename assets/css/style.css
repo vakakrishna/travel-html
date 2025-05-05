@@ -168,8 +168,9 @@ header nav ul {
 
 
 header nav ul li a {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: white;
+    padding-top: 1rem;
 
 }
 
